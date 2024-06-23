@@ -2,9 +2,8 @@ import React from 'react'
 import Image from 'next/image'
 import styles from './Project.module.css'
 import webimg from '../../../../public/website.png'
-const ProjectCard = (props:any) => {
-    
-    
+
+const ProjectCard = (props:any) => {    
   return (
     <div className={styles.projectCard}>
         <div  className={styles.projectCardImage}>

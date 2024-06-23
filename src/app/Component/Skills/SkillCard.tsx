@@ -4,8 +4,6 @@ import styles from './Skill.module.css'
 const SkillCard = (props:any) => {
   return (
     <div className={styles.skillCard}><Image {...props} width={80} height={80}></Image>
-    
-    
     </div>
   )
 }

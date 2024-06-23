@@ -17,8 +17,7 @@ const About = () => {
                SQL. Currently am in National Institute of Technology Jamshedpur, 
                pursuing my master's(MCA) and exploring technologies like Web Development,
                 Machine Learning, Data Structures and Algorithms, various programming languages.
-                
-                  Loooking forward to the journey ahead...
+                Loooking forward to the journey ahead...
         </p>
         </div>
         <div className={styles.aboutImage}>

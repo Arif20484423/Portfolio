@@ -1,0 +1,55 @@
+.contactLinks{
+    width: 320px;
+}
+.contactForm{
+    width: 320px;
+    margin-top: 20px;
+}
+.contacts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px 30px;
+}
+.contactLinks p{
+    color: rgba(255, 255, 255, 0.612);
+    font-size: 15px;
+    padding-top: 10px;
+    margin: 0;
+}
+.contactLinks:last-child{
+    margin-bottom: 30px;
+    color: blue;
+}
+.contactForm input{
+    color: white;
+    margin: 5px 0px 15px;
+    width: 300px;
+    height: 25px;
+    border-width: 0px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+.contactForm textarea{
+    color: white;
+    width: 300px;
+    margin-top: 5px;
+    border-width: 0px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+.contactForm button{
+    background-color: white;
+    color: black;
+    height: 30px;
+    width: 100px;
+    border-width: 0px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+    float: right;
+    margin-right: 15px;
+}
+.contactForm button:hover{   
+    background-color:rgba(255, 255, 255, 0.728);
+}

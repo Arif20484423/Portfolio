@@ -6,8 +6,8 @@ import Navbar from "./Component/Navbar/Navbar";
 import Navdrop from "./Component/Navbar/Navdrop";
 import About from "./Component/About/About";
 import Skills from "./Component/Skills/Skills";
-import Interests from "./Component/Interests/Interests";
 import Project from "./Component/Projects/Project";
+import Contacts from "./Component/Contacts/Contacts";
 export default function Home() {
   return (
     <>
@@ -37,23 +37,10 @@ export default function Home() {
       <Project></Project>
       </section>
       
-      {/* 
-      
-      <section id="interests" className={styles.home}>
-      <HomeImage></HomeImage>
-      <HomeContent></HomeContent>
-      
+      <section id="contacts" >
+        <br />
+      <Contacts></Contacts>
       </section>
-      <section id="projects" className={styles.home}>
-      <HomeImage></HomeImage>
-      <HomeContent></HomeContent>
-      
-      </section>
-      <section id="contacts" className={styles.home}>
-      <HomeImage></HomeImage>
-      <HomeContent></HomeContent>
-      
-      </section> */}
     </div>    
       
     <br /><br />

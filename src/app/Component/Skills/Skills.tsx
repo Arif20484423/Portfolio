@@ -15,6 +15,7 @@ import nodeimg from '../../../../public/node.png'
 import expressimg from '../../../../public/express.png'
 import mongo from '../../../../public/mongo.png'
 import sql from '../../../../public/sql.png'
+
 const Skills = () => {
   return (
 

@@ -8,7 +8,6 @@
     z-index: 1;
     overflow: hidden;
     transition: height 0.3s ease-in-out;
-    
 }
 .navbar a{
     border-radius: 8px;
@@ -19,9 +18,7 @@
     animation: navlinkanimate 1s ease-in-out forwards;
     font-weight: 300;
     display: block;
-    /* height: 0px; */
     height: max-content;
-    
 }
 @keyframes navlinkanimate {
     from {

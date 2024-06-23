@@ -35,11 +35,8 @@
     .projects{
        margin-right: 20px;
        margin-left: 20px;
-    }
-    
+    }   
 }
-
-
 .projectWrapper{
     position: absolute;
     bottom: 0px;
@@ -51,8 +48,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
-    
+    overflow: hidden;   
 }
 .projectCardImage:hover .projectWrapper{
     height: 100%;
