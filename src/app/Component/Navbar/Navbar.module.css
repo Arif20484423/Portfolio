@@ -1,0 +1,94 @@
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;  
+    justify-content:space-around;
+    width: 80%;
+    margin: 20px auto 5px;
+    z-index: 1;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+    
+}
+.navbar a{
+    border-radius: 8px;
+    transition: box-shadow 0.2s ease-in-out;
+    padding: 5px 8px;
+    text-decoration: none;
+    color: black;
+    animation: navlinkanimate 1s ease-in-out forwards;
+    font-weight: 300;
+    display: block;
+    /* height: 0px; */
+    height: max-content;
+    
+}
+@keyframes navlinkanimate {
+    from {
+        color: black;
+    }
+    to{
+        color: white;
+    }
+    
+}
+.navbar a:hover{
+    box-shadow: 0px 2px 5px grey;
+}
+@media screen and (max-width:490px) {
+    .navbar{
+        width: 80%;
+    }
+}
+.navdrop{   
+    width: 80%;
+    margin: 10px auto 5px;
+    z-index: 1;
+    color: white;
+    display: none;
+}
+.navdrop p{
+    line-height: 0px;
+    margin: 0;
+    position: relative;
+    top: 30px;
+}
+
+@media screen and (max-width:750px) {
+    .navbar{
+        position: relative;
+        top: 40px;
+        display: block;
+        height: 0px;
+        
+    }
+    .navbar a{
+        display: block;
+        padding-left: 20px;
+
+    }
+    .navdrop{
+        display: block;
+        margin-bottom: 0px;
+    }
+}
+@media screen and (max-width:490px) {
+    .navbar{
+        width: 100%;
+        position: relative;
+        top: 40px;
+        display: block;
+        
+    }
+    .navbar a{
+        display: block;
+        padding-left: 50px;
+
+    }
+    .navdrop{
+        width: 100%;
+        display: block;
+        margin-bottom: 0px;
+        padding-left: 30px;
+    }
+}

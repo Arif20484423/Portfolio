@@ -1,0 +1,26 @@
+.skills{
+    margin: 50px 80px;
+}
+.skillCard{
+    width: max-content;
+    position: relative;
+    overflow: hidden;
+}
+.skillCard:hover{
+    bottom: 10px;
+    filter: drop-shadow(0px 5px 5px white);
+}
+.skillContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-around;
+}
+@media screen and (max-width:830px) {
+    .skills{
+        text-align: center;  
+    }
+    .skillCard{
+        filter: drop-shadow(0px 5px 5px white);
+    }
+}

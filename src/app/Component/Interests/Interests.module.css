@@ -1,0 +1,9 @@
+.interests{
+    margin: 50px 80px;
+}
+@media screen and (max-width:830px) {
+    .interests{
+        text-align: center;  
+    }
+}
+

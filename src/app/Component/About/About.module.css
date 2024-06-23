@@ -1,0 +1,43 @@
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 30px;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+
+.aboutContent{
+    
+    max-width: 380px;
+}
+.aboutContent p{
+    color: rgba(255, 255, 255, 0.612);
+    font-weight: 600;
+}
+.aboutImage{
+    mask-image:  linear-gradient(to right ,black,black,black,transparent);
+}
+.aboutContent *{
+    margin: 0;
+    padding: 10px;
+}
+
+@media screen and (max-width:1000px) {
+    .aboutContent{
+        max-width: 300px;
+    }   
+    .aboutImage{
+        max-width: 300px;
+        
+    }
+}
+@media screen and (max-width:830px) {
+    .aboutContent{
+        max-width: 450px;
+        text-align: center;
+    }
+    .aboutImage{
+        display: none;
+    }
+}
