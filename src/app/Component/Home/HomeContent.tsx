@@ -54,7 +54,7 @@ const HomeContent = () => {
     <section className={styles.homeContent}>
         <h2>MD ARIF</h2>
         <h3 id='role' style={{height:"15px"}}>{role}</h3>
-        <p>Hello! I'm , a passionate web developer with a keen interest in crafting exceptional digital experiences. With a solid foundation in web development and a thirst for learning, I'm committed to pushing the boundaries of what's possible on the web.</p>
+        <p>Hello! I&apos;m , a passionate web developer with a keen interest in crafting exceptional digital experiences. With a solid foundation in web development and a thirst for learning, I&apos;m committed to pushing the boundaries of what&apos;s possible on the web.</p>
         <br />
         <section className={styles.iconssec}>
         <Links></Links>
