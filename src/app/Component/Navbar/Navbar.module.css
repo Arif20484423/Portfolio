@@ -48,13 +48,13 @@
     line-height: 0px;
     margin: 0;
     position: relative;
-    top: 30px;
+    top: 15px;
 }
 
 @media screen and (max-width:750px) {
     .navbar{
         position: relative;
-        top: 40px;
+        top: 20px;
         display: block;
         height: 0px;
         
@@ -62,7 +62,7 @@
     .navbar a{
         display: block;
         padding-left: 20px;
-
+        margin-bottom: 8px;
     }
     .navdrop{
         display: block;
@@ -73,13 +73,14 @@
     .navbar{
         width: 100%;
         position: relative;
-        top: 40px;
+        top: 20px;
         display: block;
         
     }
     .navbar a{
         display: block;
         padding-left: 50px;
+        margin-bottom: 8px;
 
     }
     .navdrop{

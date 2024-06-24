@@ -1,6 +1,8 @@
 "use client"
 import React from 'react'
 import styles from './Navbar.module.css'
+import Image from 'next/image'
+import menuicon from '../../../../public/menu.png'
 const Navdrop = () => {
     let flag=false;
     function handleNavDrop(){
@@ -14,7 +16,7 @@ const Navdrop = () => {
         }
     }
   return (
-    <div className={styles.navdrop}><p onClick={handleNavDrop}>Navdrop</p></div>
+    <div className={styles.navdrop}><p onClick={handleNavDrop}><Image src={menuicon} alt='Menu' width={30}></Image></p></div>
   )
 }
 

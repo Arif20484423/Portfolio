@@ -14,7 +14,7 @@ const Links = () => {
         <a href="https://github.com/Arif20484423" target='blank'><Image className={styles.socialIcons} src={github} alt="github" width={25} ></Image></a>
         <br />
         <br />
-        <a href='../../../../public/resume.pdf' download="resume.pdf" ><button className={styles.resumeButton}>Download Resume</button></a>
+        <a href='https://drive.google.com/file/d/1d4YFl7i5cja-082Sk2wWKOBjs34cxj3I/view?usp=drive_link' target='blank'><button className={styles.resumeButton}>Download Resume</button></a>
         </>
   )
 }
