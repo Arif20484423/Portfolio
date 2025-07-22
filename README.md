@@ -76,6 +76,6 @@ This project is personal, but feel free to fork and customize it for your own us
 
 ## 📩 Contact
 
-- **Email:** your-email@example.com
-- **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
-- **GitHub:** [Your GitHub Profile](https://github.com/yourusername)
+- **Email:** arif7862016aa@gmail.com
+- **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/md-arif-181a0a205/)
+- **GitHub:** [Your GitHub Profile](https://github.com/Arif20484423)
