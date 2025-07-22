@@ -58,15 +58,6 @@ npm start
 
 ---
 
-## 🎯 Future Enhancements
-
-- Improve SEO optimization
-- Add Light/Dark mode toggle
-- Enhance animations with Framer Motion
-- Add a blog or writing section
-- Implement better form validation and success/error notifications
-
----
 
 ## 🤝 Contributing
 
